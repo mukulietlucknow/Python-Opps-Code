@@ -10,8 +10,14 @@ class Speed:
 	def get_speed(self):
 		return self.__new_speed
 
+	def set_speed(self, new_speed):
+		self.__new_speed = new_speed
+
 
 s = Speed()
 s.speed = 100
 print (s.speed)
 print (s.get_speed())
+s.set_speed(150)
+print (s.get_speed())
+
