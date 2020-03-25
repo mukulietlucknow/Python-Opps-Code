@@ -11,7 +11,7 @@ class Shape(ABC):
         pass
 
 
-def Sqaure(Shape):
+class Sqaure(Shape):
     def __init__(self,side):
         self.__side = side
 
