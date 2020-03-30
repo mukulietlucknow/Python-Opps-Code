@@ -11,7 +11,7 @@ class Fruit(Enum):
 def main():
     print(Fruit.APPLE)
 
-    print(Fruit.APPLE.name)
+    print(Fruit.APPLE.name) # even we can use these as a key
     print(Fruit.APPLE.value)
     print(Fruit.PEAR.value)
 
